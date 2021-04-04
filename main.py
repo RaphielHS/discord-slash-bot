@@ -246,7 +246,7 @@ try:
         except ZeroDivisionError:
             await ctx.send(f"Error: You can't Divide 0.")
 
-    client.run("ODI3NTIzMDg0MzQ4OTQ4NTAw.YGcQ7Q.5zGhUERh_2V5QB7IOzqMIxCEsKI")
+    client.run("token")
 except Exception as e:
     print(e)
     raise e
