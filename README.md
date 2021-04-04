@@ -1,6 +1,6 @@
 # Discord Slash Bot
 
-# LISENCE TYPE:
+## LISENCE TYPE:
 GNU General Public License v3.0
 
 ### Clone The Repository
