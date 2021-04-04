@@ -15,7 +15,7 @@ try:
     slash = SlashCommand(client, sync_commands=True)
 
     __author__ = 'Raphiel#4045'
-    __version__ = '1.0.0'
+    __version__ = '1.0.1'
 
     def uptime():
         now = time.time()
@@ -36,8 +36,7 @@ try:
                  guild_ids=guildids
                  )
     async def _ping(ctx):
-        embed = Embed(title="Test")
-        await ctx.send(content="test", embed=embed)
+        await ctx.send(f"Pong! My Ping is {round(client.latency * 1000)}ms!")
 
     @slash.slash(name="say",
                  description="Make the bot say something!",
